@@ -3,6 +3,7 @@ var prompt = require('prompt');
 var properties = [
   {
     name: 'location', 
+    required: true,
     warning: 'move already taken'
   }
 ];
