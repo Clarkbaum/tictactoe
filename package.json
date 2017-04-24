@@ -1,0 +1,22 @@
+{
+  "name": "tictactoe",
+  "version": "1.0.0",
+  "description": "tictactoe",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Clarkbaum/tictactoe.git"
+  },
+  "author": "nathan clark baumgartner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Clarkbaum/tictactoe/issues"
+  },
+  "homepage": "https://github.com/Clarkbaum/tictactoe#readme",
+  "dependencies": {
+    "prompt": "^1.0.0"
+  }
+}
