@@ -1,0 +1,19 @@
+# System files
+.DS_Store
+
+# Secrets
+*.pem
+production.json
+config.js
+
+# Logs
+*.log
+
+# Caches and Compiled Files
+public/
+.tmp/
+*.tmp
+.eslintcache
+
+# Dependency directories
+node_modules/
