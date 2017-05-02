@@ -13,7 +13,7 @@ var board = [['.', '.', '.'], ['.', '.', '.'], ['.', '.', '.']];
 prompt.start();
 console.log(printBoard(board))
 console.log("choose a place to move (x,y starting at 0)");
-while(!!!checkWin()){
+//while(!!!checkWin()){
   prompt.get(properties, function (err, result) {
     if (err) { return onErr(err); }
     console.log('ok! moving your place there:');
@@ -24,7 +24,7 @@ while(!!!checkWin()){
     movePiece(i, j);
     console.log(printBoard(board));
   });
-}
+//}
 
 console.log(checkWin())
 
