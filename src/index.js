@@ -14,6 +14,7 @@ prompt.start();
 console.log(printBoard(board))
 console.log("choose a place to move (x,y starting at 0)");
 //while(!!!checkWin()){
+//for(var i = 0; i < 4; i ++){
   prompt.get(properties, function (err, result) {
     if (err) { return onErr(err); }
     console.log('ok! moving your place there:');
@@ -25,8 +26,9 @@ console.log("choose a place to move (x,y starting at 0)");
     console.log(printBoard(board));
   });
 //}
+//}
 
-console.log(checkWin())
+//console.log(checkWin())
 
 function onErr(err) {
   console.log(err);
